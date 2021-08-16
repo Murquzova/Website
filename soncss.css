@@ -1,0 +1,763 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap");
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://demo.colorlib.com/illdy/wp-content/themes/illdy/layout/images/front-page/front-page-header.jpg");
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* filter:brightness(70%); */
+}
+.head {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 100px;
+}
+.head ul {
+  display: flex;
+  padding: 40px;
+}
+.head img {
+  padding-top: 20px;
+}
+.head ul li a {
+  color: white;
+  font-size: 20px;
+  margin: 0 15px;
+  font-family: "Lato", sans-serif;transition: 0.4s;
+}
+.head ul li a:hover{
+  color: yellow;
+}
+.textalign {
+  width: 100%;
+  height: 400px;
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+}
+.textalign .clean {
+  font-size: 40px;
+  display: flex;
+}
+.clean {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+#tocka {
+  color: yellow;
+  position: relative;
+  /* border-radius: 50%; */
+}
+#tocka::after {
+  content: "";
+  position: absolute;
+  width: 90%;
+  height: 20%;
+  border-radius: 100%;
+  background-color: yellow;
+  left: 0;
+  top: 63%;
+}
+.textalign p {
+  padding-top: 40px;
+  width: 50%;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+nav {
+  display: flex;
+  margin-top: 40px;
+}
+nav a {
+  margin: 0px 40px;
+  color: white;
+
+  font-family: "Poppins", sans-serif;
+}
+.perviy {
+  padding: 20px 60px;
+  background-color: rgba(0, 0, 0, 0.184);
+  border: 3px solid white;
+  border-radius: 2px;
+}
+.perviy:hover {
+  background-color: transparent;
+}
+.vtoroy {
+  background-color: rgba(223, 201, 33, 0.993);
+  border: none;
+  padding: 20px 80px;
+  outline: none;
+  border-radius: 2px;
+  transition: 0.4s;
+}
+.vtoroy:hover {
+  background-color: violet;
+}
+.about {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.textabout {
+  width: 60%;
+  font-family: "Poppins", sans-serif;
+  margin-top: 80px;
+}
+.textabout p {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.639);
+}
+.textabout h1 {
+  font-size: 40px;
+}
+.progress {
+  position: relative;
+  padding-top: 50px;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+}
+.faiz {
+  width: 25%;
+  height: 20px;
+  display: flex;
+  align-items: center;
+}
+.faiz .one {
+  width: 60%;
+  height: 4px;
+  background-color: #f18b6d;
+  position: relative;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.faiz .two {
+  width: 40%;
+  height: 2px;
+  background-color: rgba(93, 91, 88, 0.388);
+}
+.one span {
+  position: absolute;
+  bottom: center;
+  right: 0%;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: #f18b6d;
+}
+.faiz .one2 {
+  width: 82%;
+  height: 4px;
+  background-color: #f1d204;
+  position: relative;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.faiz .two2 {
+  width: 12%;
+  height: 2px;
+  background-color: rgba(93, 91, 88, 0.388);
+}
+.one2 .span2 {
+  position: absolute;
+  bottom: center;
+  right: 0%;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: #f1d204;
+}
+.faiz .one3 {
+  width: 82%;
+  height: 4px;
+  background-color: #6a4d8a;
+  position: relative;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.faiz .two3 {
+  width: 12%;
+  height: 2px;
+  background-color: rgba(93, 91, 88, 0.388);
+}
+.one3 .span3 {
+  position: absolute;
+  bottom: center;
+  right: 0%;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: #6a4d8a;
+}
+button {
+  color: white;
+  outline: none;
+  border: none;
+  width: 60px;
+  height: 30px;
+  position: relative;
+  top: -40px;
+  left: 230px;
+  border-radius: 3px;
+  background-color: #f18b6d;
+}
+button::before {
+  content: "";
+  position: absolute;
+  transform: translate(-50%, -50%) rotate(45deg);
+  bottom: -10px;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: #f18b6d;
+}
+.button1 {
+  color: white;
+  outline: none;
+  border: none;
+  width: 70px;
+  height: 30px;
+  position: relative;
+  top: -34px;
+  left: 271px;
+  background-color: #f1d204;
+}
+.button1::before {
+  content: "";
+  position: absolute;
+  transform: translate(-50%, -50%) rotate(45deg);
+  bottom: -10px;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: #f1d204;
+}
+.button2 {
+  color: white;
+  outline: none;
+  border: none;
+  width: 70px;
+  height: 30px;
+  position: relative;
+  top: -34px;
+  left: 269px;
+  background-color: #6a4d8a;
+}
+.button2::before {
+  content: "";
+  position: absolute;
+  transform: translate(-50%, -50%) rotate(45deg);
+  bottom: -10px;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: #6a4d8a;
+}
+.ikoni {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+.miniikoni {
+  width: 80%;
+  display: flex;
+}
+.iii1 {
+  color: #f18b6d;
+  width: 110px;
+  height: 20px;
+  margin-left: 66px;
+}
+.iii2 {
+  color: #f1d204;
+  width: 100px;
+  height: 20px;
+  margin-left: 300px;
+}
+.iii3 {
+  color: #6a4d8a;
+  width: 130px;
+  height: 20px;
+  margin-left: 250px;
+}
+.projects {
+  font-size: 20px;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  background-image: url(https://demo.colorlib.com/illdy/wp-content/themes/illdy/layout/images/front-page/pattern.png) !important;
+}
+.foto {
+  width: 100%;
+  height: 350px;
+  display: flex;
+}
+.minifoto {
+  width: 25%;
+  cursor: pointer;
+  position: relative;
+} 
+.minifoto img{
+width: 100%;
+height: 100%;
+}
+.foto .minifoto{
+  opacity: 1;
+  transition: 1s;
+}
+.foto img:hover{
+  opacity: 0.5;
+}
+/* .minifoto::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgb(241, 235, 235);
+  opacity: 0;
+}
+.minifoto:hover::before {
+  opacity: 0.5;
+} */
+
+.contain {
+  width: 100%;
+  height: 600px;
+  background-image: url(/foto/less.jfif);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 90px 0;
+}
+.contain h1 {
+  padding-bottom: 40px;
+}
+#paren {
+  width: 10%;
+  /* padding-top: 50px; */
+  border-radius: 50%;
+}
+#lorem {
+  font-size: 20px;
+  background-color: #6a4d8a;
+  width: 70%;
+  height: 100px;
+  margin-top: 80px;
+  position: relative;
+  padding: 20px 50px;
+}
+
+#lorem::before {
+  content: "";
+  position: absolute;
+  transform: translate(-50%, -50%) rotate(45deg);
+  bottom: -10px;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  background-color: #6a4d8a;
+}
+.qlavniykruq {
+  width: 100%;
+  height: 20px;
+  margin-top: 30px;
+  display: flex !important;
+  flex-direction: row;
+  justify-content: center;
+}
+.kruq {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: white;
+  margin: 0 5px;
+}
+.posledniy {
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.servis {
+  padding-top: 80px;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.radomdivi {
+  width: 90%;
+  display: flex;
+  padding-top: 60px;
+}
+.triradomdivi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.triradomdivi i {
+  font-size: 30px;
+}
+.triradomdivi p {
+  text-align: center;
+  width: 80%;
+  padding-top: 20px;
+  color: rgba(0, 0, 0, 0.585);
+  font-family: "Lato", sans-serif;
+}
+.servis h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+}
+.latest {
+  width: 100%;
+  height: 130vh;
+  text-align: center;
+  padding-top: 90px;
+  background-color: #222f36;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.latestone {
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+.latestone #see {
+  width: 180px;
+  font-size: 20px;
+
+  height: 40px;
+  background-color: rgba(250, 108, 26, 0.993);
+  color: white;
+  margin-top: 100px;
+  margin-right: 500px;
+}
+.latestone #see::before {
+  display: none;
+}
+.latestimg {
+  width: 90%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+.priroda {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 25%;
+  height: 500px;
+  margin: 0 20px;
+  background-color: white;
+}
+.priroda img {
+  width: 100%;
+}
+.priroda h4 {
+  padding-top: 30px;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 20px;
+  width: 70%;
+  color: rgba(0, 0, 0, 0.714);
+  font-family: "Lato", sans-serif;
+  transition: 0.4s;
+}
+.priroda h4:hover {
+  color: yellow;
+}
+
+.priroda p {
+  padding-top: 30px;
+  width: 80%;
+  margin-left: 20px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.714);
+  font-family: "Lato", sans-serif;
+}
+.priroda a {
+  padding-top: 50px;
+  text-align: left;
+  margin-left: 20px;
+  width: 70%;
+  color: rgb(221, 221, 16);
+  font-family: "Lato", sans-serif;
+  transition: 0.4s;
+}
+.priroda a:hover {
+  color: purple;
+}
+
+.jeltiyles {
+  width: 100%;
+  height: 200px;
+  background-image: url("/foto/jeltiyles.jfif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.dva {
+  color: white;
+  font-size: 20px;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  padding: 10px 70px;
+}
+.jeltok {
+  font-size: 20px;
+
+  color: white;
+  padding: 10px 70px;
+}
+.esas {
+  width: 100%;
+  height: 600px;
+  background-image: url(https://demo.colorlib.com/illdy/wp-content/themes/illdy/layout/images/front-page/pattern.png) !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.esasyazi {
+  width: 100%;
+  font-size: 20px;
+  margin-top: none;
+  height: 100px;
+  text-align: center;
+  margin-top: 100px;
+  padding: 20px 0;
+  font-family: "Lato", sans-serif;
+}
+.triportreta {
+  margin-top: 5%;
+  width: 80%;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+.portret {
+  width: 30%;
+  height: 250px;
+  display: flex;
+}
+.vnutriportreta1 {
+  width: 40%;
+}
+.vnutriportreta1 img {
+  width: 100%;
+  border-radius: 50%;
+}
+.vnutriportreta2 {
+  width: 50%;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-family: "Lato", sans-serif;
+}
+.vnutriportreta2 h5 {
+  font-size: 20px;
+}
+.vnutriportreta2 p {
+  color: rgba(255, 0, 0, 0.762);
+  padding-top: 20px;
+}
+.vnutriportreta2 small {
+  width: 100%;
+  display: inline-block;
+  padding-top: 20px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.619);
+}
+.ikonipos {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.ikonipos i {
+  color: rgb(0, 94, 255);
+  border: 1px solid rgb(0, 94, 255);
+  padding: 10px 10px;
+  margin: 20px 3px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 13px;
+}
+.contact {
+  width: 100%;
+  height: 140px;
+  padding-top: 40px;
+  font-size: 40px;
+  text-align: center;
+}
+.foot {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  display: flex;
+  background-color: rgb(24, 23, 23);
+}
+.footer {
+  width: 60%;
+  position: absolute;
+  top: 50px;
+  left: 70px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer h1 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.823);
+}
+.footer li {
+  padding: 10px 0;
+}
+.footer a {
+  color: #8c979e;
+  transition: 0.4s;
+}
+.footer i {
+  padding-right: 10px;
+}
+.footer a:hover {
+  color: #6a4d8a;
+}
+.adress {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+.miniadress {
+  width: 90%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.vnutriadress {
+  width: 30%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
+  margin: 0 20px;
+}
+.vnutriadress span {
+  padding-right: 30px;
+  color: #f1d104d4;
+}
+.vnutriadress p {
+  padding-left: 20px;
+  border-left: 1px solid rgba(0, 0, 0, 0.449);
+}
+
+.vnutriadress i {
+  padding: 0 2px;
+  font-size: 16px;
+  color: #222f366c;
+}
+.in {
+  width: 100%;
+  height: 70px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.inin {
+  width: 80%;
+  display: flex;
+  height: 100px;
+}
+input {
+  display: flex;
+  justify-content: space-evenly;
+  width: 300px;
+  height: 30px;
+  outline: none;
+  margin-top: 6px;
+  padding-left: 30px;
+  margin-right: 90px;
+  border: 1px solid rgba(0, 0, 0, 0.251);
+}
+
+.ininin {
+  margin: 0 10px;
+}
+.yourmessage {
+  width: 97%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+.your {
+  width: 78%;
+}
+#you {
+  width: 109%;
+  height: 200px;
+  display: flex;
+  padding-top: 0;
+}
+.send {
+  width: 100%;
+  height: 100px;
+  position: relative;
+}
+.send a {
+  color: white;
+  border-radius: 4px;
+  font-size: 20px;
+  position: absolute;
+  bottom: 50%;
+  right: 60px;
+  width: 150px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(238, 238, 62);
+}
